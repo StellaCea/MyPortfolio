@@ -516,10 +516,11 @@ span{
 .work-details a:hover::before {
     width: 100%;
 }
-/*.work-details {
+.work-details {
     position: relative;
     overflow: hidden;
 }
+/*
 .work-details::before {
     content: '';
     position: absolute;
@@ -683,7 +684,7 @@ span{
 }
 
 .animate.scroll {
-    transition: 1s ease;
+    transition: .5s ease;
     transition-delay: calc(.3s / var(--i));
     animation: none;
 }
