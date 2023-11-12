@@ -18,9 +18,7 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#education">Education</a>
             <a href="#work">Work</a>
-            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
 
             <span class="active-nav"></span>
@@ -31,20 +29,32 @@
     <!--home serction design-->
     <section class="home show-animate" id="home">
         <div class="home-content">
-            <h1>Hi, I'm <span>Stella</span><span class="animate" style="--i:2;"></span></h1>
-            <div class="text-animate">
-                <h3>Full-Stack Web Developer</h3>
-                <span class="animate" style="--i:3;"></span>
+            <div class="home-content-left">
+                <h1>Hi, I'm <span>Stella</span><span class="animate" style="--i:2;"></span></h1>
+                <div class="text-animate">
+                    <h3>Full-Stack Web Developer</h3>
+                    <span class="animate" style="--i:3;"></span>
+                </div>
+                <p>I'm an aspiring web developer based in Oslo, passionate about crafting visually appealing and functional websites.
+                    Currently seeking out challenges and embracing new adventures within the realm of developers.</p>
+                <span class="animate" style="--i:4;"></span>
+                
+                <div class="btn-box">
+                    <a href="https://github.com/StellaCea" target="_blank" class="btn"> Check out my code</a>
+                    <a href="images/Ceaicovscaia-Stela-Resume.pdf" target="_blank" class="btn">Download my CV <i
+                            class='bx bx-download'></i></a>
+                    <span class="animate" style="--i:5;"></span>
+                </div>
             </div>
-            <p>I'm an aspiring web developer based in Oslo, passionate about crafting visually appealing and functional websites.
-            Currently seeking out challenges and embracing new adventures within the realm of developers.</p>
-            <span class="animate" style="--i:4;"></span>
 
-            <div class="btn-box">
-                <a href="https://github.com/StellaCea" target="_blank" class="btn"> Check out my code</a>
-                <a href="images/Ceaicovscaia-Stela-Resume.pdf" target="_blank" class="btn">Download my CV <i class='bx bx-download'></i></a>
-                <span class="animate" style="--i:5;"></span>
+            <div class="home-content-right">
+                <div class="about-img">
+                    <img src="images/home.jpg" alt="aboutimg">
+                    <span class="circle-spin"></span>
+                    <span class="animate scroll" style="--i:2;"></span>
+                </div>
             </div>
+            
         </div>
         <div class="home-sci">
             <a href="https://www.facebook.com/profile.php?id=100000762145939" target="_blank"><i class='bx bxl-facebook'></i></a>
@@ -52,21 +62,12 @@
             <a href="https://github.com/StellaCea" target="_blank"><i class='bx bxl-github'></i></a>
             <span class="animate" style="--i:6;"></span>
         </div>
-        <div class="home-img">
-            <img src="images/home.jpg" alt="profilepic">
-            <span class="animate" style="--i:8;"></span>
-        </div>
 
     </section>
 
     <!-- about section design-->
     <section class="about" id="about">
         <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
-        <div class="about-img">
-            <img src="images/about.jpg"  alt="aboutimg">
-            <span class="circle-spin"></span>
-            <span class="animate scroll" style="--i:2;"></span>
-        </div>
         <div class="about-content">
             <h3>I believe that through hard work you can achieve anything!<span class="animate scroll" style="--i:3;"></span></h3>
             <div class="about-box">
@@ -91,298 +92,240 @@
                     leisure hours.<span class="animate scroll" style="--i:6;"></span></p>
                 </div>
             </div>
-            
-        </div>
-    </section>
-
-    <!--education section design-->
-    <section class="education" id="education">
-        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
-
-        <div class="education-row">
-            <div class="education-column">
-                <h3 class="title">Education <span class="animate scroll" style="--i:2;"></span></h3>
-
-                <div class="education-box">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'>2017-2018</i></div>
-                            <h3>Master Degree - University</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque nobis quasi architecto aperiam ipsa cumque, eos eum magnam facilis qui esse quia hic fugit!</p>
+            <div class="skills">
+                <h3 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+                <div class="skills-row">
+                    <div class="skills-column">
+                        <div class="skills-box">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Languages</th>
+                                        <th>Design</th>
+                                        <th>Front-end</th>
+                                        <th>Back-end</th>
+                                        <th>Database</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>HTML</td>
+                                        <td>Adobe Photoshop</td>
+                                        <td>Bootstrap</td>
+                                        <td>Node JS</td>
+                                        <td>MongoDB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CSS</td>
+                                        <td>Figma</td>
+                                        <td>React JS</td>
+                                        <td></td>
+                                        <td>Firebase</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JavaScript</td>
+                                        <td>Sketch</td>
+                                        <td>Angular JS</td>
+                                        <td></td>
+                                        <td>SQL & NoSQL</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Python</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <span class="animate scroll" style="--i:3;"></span>
                         </div>
+                
                     </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'>2018-2019</i></div>
-                            <h3>Master Degree - University</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque nobis quasi architecto aperiam ipsa
-                                cumque, eos eum magnam facilis qui esse quia hic fugit!</p>
-                        </div>
-                    </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'>2019-2020</i></div>
-                            <h3>Master Degree - University</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque nobis quasi architecto aperiam ipsa
-                                cumque, eos eum magnam facilis qui esse quia hic fugit!</p>
-                        </div>
-                    </div>
-                    <span class="animate scroll" style="--i:3;"></span>
-                </div>
-            </div>
-
-            <div class="education-column">
-                <h3 class="title">Experience <span class="animate scroll" style="--i:5;"></span></h3>
-                <div class="education-box">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'>2017-2018</i></div>
-                            <h3>Web-Designer - Company</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque nobis quasi architecto
-                                aperiam ipsa cumque, eos eum magnam facilis qui esse quia hic fugit!</p>
-                        </div>
-                    </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'>2018-2019</i></div>
-                            <h3>Web-Developer - Company</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque nobis quasi architecto
-                                aperiam ipsa
-                                cumque, eos eum magnam facilis qui esse quia hic fugit!</p>
-                        </div>
-                    </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'>2019-2020</i></div>
-                            <h3>Frontend Develoepr - Company</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque nobis quasi architecto
-                                aperiam ipsa
-                                cumque, eos eum magnam facilis qui esse quia hic fugit!</p>
-                        </div>
-                    </div>
-                    <span class="animate scroll" style="--i:6;"></span>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--Work section design-->
     <section class="work" id="work">
-        <h2 class="heading">My <span>Work</span><span class="animate scroll" style="--i:1;"></span></h2>
-        <div class="grid">
-            <div class="grid__item">
-                <img src="images/Pokedex.jpg" alt="pokedox">
-                <h2>Pokedex</h2>
-                <p>Pokedex is a small web application with HTML, CSS, and JavaScript that loads data from an external API and
-                    enables the
-                    viewing of data points in detail.</p>
-                <ul class="tech">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                    <li>Prettier</li>
-                </ul>
-                <br />
-                <div class="links">
-                    <a href="https://stellacea.github.io/simple-js-app/" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+        <h2 class="heading">My <span>Work</span></h2>
+        <div class="work-cards">
+            <div class="work-card card1">
+                <div class="work-container">
+                    <img src="images/Pokedex.jpg" alt="pokedex">
+                </div>
+                <div class="work-details">
+                    <h3>Pokedex</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non culpa quasi consectetur, optio totam, magnam dolorum
+                    similique, quia nam eligendi ratione voluptatibus. Commodi, architecto nemo?</p>
+
+                    <ul class="tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Prettier</li>
+                    </ul>
+                    <br />
+                    <div class="links">
+                        <a href="https://stellacea.github.io/simple-js-app/" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
+
                 </div>
             </div>
-            <div class="grid__item">
-                <img src="images/myFlixAPI.png" alt="myflixapi">
-                <h2>MyFlix API</h2>
-                <p>The web application will provide users with access to information about different movies, directors, and
-                    genres.
-                    Users
-                    will be able to sign up, update their personal information, and create a list of their favorite movies.
-                    The API is built with Node.js and Express. The non-relational database is created by me and is hosted on
-                    MongoDB
-                    Atlas.</p>
-                <ul class="tech">
-                    <li>JavaScript</li>
-                    <li>MongoDB</li>
-                    <li>Express</li>
-                    <li>Node.js</li>
-                    <li>Postman</li>
-                    <li>PostgreSQL</li>
-                    <li>Mongoose</li>
-                </ul>
-                <br />
-                <div class="links">
-                    <a href="https://github.com/StellaCea/MyFlix-API" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://myflixapi.herokuapp.com/" target="_blank"><i class="fa fa-link"></i></a>
+
+            <div class="work-card card2">
+                <div class="work-container">
+                    <img src="images/myFlixAPI.png" alt="myflixapi">
+                </div>
+                <div class="work-details">
+                    <h3>myFlix API</h3>
+                    <p>The web application provides users with access to information about different movies, directors, and genres.
+                    Users are able to sign up, update their personal information, and create a list of their favorite movies.
+                    The API is built with Node.js and Express. The non-relational database is created by me and is hosted on MongoDB
+                    Atlas.<p>
+
+                    <ul class="tech">
+                        <li>JavaScript</li>
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>Node.js</li>
+                        <li>Postman</li>
+                        <li>PostgreSQL</li>
+                        <li>Mongoose</li>
+                    </ul>
+                    <br />
+                    <div class="links">
+                        <a href="https://github.com/StellaCea/MyFlix-API" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://myflixapi.herokuapp.com/" target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="grid__item">
-                <img src="images/myFlix.png" alt="myflixclient">
-                <h2>MyFlix-Client</h2>
-                <p>MyFlix-client is a web applicatrion that grants users access to information about movies. It is built using
-                    the
-                    React
-                    framework and written in JavaScript. Behind the scenes, the app is connected to a Node-Express backend and a
-                    MongoDB
-                    database.</p>
-                <ul class="tech">
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>Parcel</li>
-                    <li>React Bootstrap</li>
-                </ul>
-                <br />
-                <div class="links">
-                    <a href="https://github.com/StellaCea/MyFlixClient" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://myflix-x.netlify.app" target="_blank"><i class="fa fa-link"></i></a>
+
+            <div class="work-card card3">
+                <div class="work-container">
+                    <img src="images/myFlix.png" alt="myflix">
+                </div>
+                <div class="work-details">
+                    <h3>MyFlix Client</h3>
+                    <p>MyFlix-client is a web applicatrion that grants users access to information about movies. It is built using the React framework and written in JavaScript. Behind the scenes, the app is connected to a Node-Express backend and a
+                    MongoDB database.
+                    <p>
+                    <ul class="tech">
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Parcel</li>
+                        <li>React Bootstrap</li>
+                    </ul>
+                    <br />
+                    <div class="links">
+                        <a href="https://github.com/StellaCea/MyFlixClient" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://myflix-x.netlify.app" target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="grid__item">
-                <img src="images/MeetApp.png" alt="meet-app">
-                <h2>Meet App</h2>
-                <p>Meet App assists users in discovering, organizing and participating in events that take place in different
-                    cities.
-                    The app is a serverless, progressive web apllication (PWA) build with React using test-driven development
-                    technique. The
+
+            <div class="work-card card4">
+                <div class="work-container">
+                    <img src="images/MeetApp.png" alt="meetapp">
+                </div>
+                <div class="work-details">
+                    <h3>Meet App</h3>
+                    <p>Meet App assists users in discovering, organizing and participating in events that take place in different cities.
+                    The app is a serverless, progressive web apllication (PWA) build with React using test-driven development technique. The
                     application uses the Google Calendar API to fetch upcoming events.</p>
-                <!--List of technologies used-->
-                <ul class="tech">
-                    <li>React</li>
-                    <li>CSS</li>
-                    <li>Jest</li>
-                    <li>Cucumber</li>
-                    <li>Atatus</li>
-                    <li>Recharts</li>
-                </ul>
-                <br />
-                <div class="links">
-                    <a href="https://github.com/StellaCea/Meet" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://stellacea.github.io/Meet/" target="_blank"><i class="fa fa-link"></i></a>
+                    <ul class="tech">
+                        <li>React</li>
+                        <li>CSS</li>
+                        <li>Jest</li>
+                        <li>Cucumber</li>
+                        <li>Atatus</li>
+                        <li>Recharts</li>
+                    </ul>
+                    <br />
+                    <div class="links">
+                        <a href="https://github.com/StellaCea/Meet" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://stellacea.github.io/Meet/" target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
                 </div>
             </div>
-        
-            <div class="grid__item">
-                <img src="images/myFlixAngular.png" alt="myflix-angular">
-                <h2>MyFlix-Angular</h2>
-                <p>The MyFlix movie App in Angular is designed to be responsive and caters the movie enthusiasts. It is an
-                    analogue to
-                    previously built MyFlix App built using React. The app provides users with movie information. Additionally,
-                    registered
-                    users can access features like viewing, updating and deleting their accounts. It is the client-side to the
-                    RESTful Movie
+
+            <div class="work-card card5">
+                <div class="work-container">
+                    <img src="images/myFlixAngular.png" alt="angularmyflix">
+                </div>
+                <div class="work-details">
+                    <h3>MyFlix - Angular</h3>
+                    <p>The MyFlix movie App in Angular is designed to be responsive and caters the movie enthusiasts. It is an analogue to
+                    previously built MyFlix App built using React. The app provides users with movie information. Additionally, registered
+                    users can access features like viewing, updating and deleting their accounts. It is the client-side to the RESTful Movie
                     API.</p>
-                <ul class="tech">
-                    <li>Angular</li>
-                    <li>Node.js</li>
-                    <li>Angular Material</li>
-                </ul>
-                <br />
-                <div class="links">
-                    <a href="https://github.com/StellaCea/myFlix-Angular-client" target="_blank"><i
-                            class="fa fa-github"></i></a>
-                    <a href="https://stellacea.github.io/myFlix-Angular-client/" target="_blank"><i class="fa fa-link"></i></a>
+                    <ul class="tech">
+                        <li>Angular</li>
+                        <li>Node.js</li>
+                        <li>Angular Material</li>
+                    </ul>
+                    <br />
+                    <div class="links">
+                        <a href="https://github.com/StellaCea/myFlix-Angular-client" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://stellacea.github.io/myFlix-Angular-client/" target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="grid__item">
-                <img src="images/ChatApp-Screens.png" alt="chatapp">
-                <h2>ChatApp</h2>
-                <p>The app provides users with a chat interface and options to share images and their locations.</p>
-                <ul class="tech">
-                    <li>React</li>
-                    <li>React Native</li>
-                    <li>Expo</li>
-                    <li>Google Firebase</li>
-                </ul>
-                <br />
-                <div class="links">
-                    <a href="https://github.com/StellaCea/chatApp" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://youtube.com/shorts/FJRiEYTYNmg?feature=share" target="_blank"><i
-                        class="fa fa-link"></i></a>
+
+            <div class="work-card card6">
+                <div class="work-container">
+                    <img src="images/ChatApp-Screens.png" alt="chatapp">
+                </div>
+                <div class="work-details">
+                    <h3>Chat App</h3>
+                    <p>The app provides users with a chat interface and options to share images and their locations.</p>
+                    <ul class="tech">
+                        <li>React</li>
+                        <li>React Native</li>
+                        <li>Expo</li>
+                        <li>Google Firebase</li>
+                    </ul>
+                    <br />
+                    <div class="links">
+                        <a href="https://github.com/StellaCea/chatApp" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://youtube.com/shorts/FJRiEYTYNmg?feature=share" target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="grid__item">
-                <img src="images/recipeApp.png" alt="recipeapp">
-                <h2>RecipeApp</h2>
-                <p>An easy-to-use recipe application developed using Django and hosted on Heroku. It seamlessly connects to a SQL database
-                and operates directly within your web browser. You can effortlessly login and find your favorite recipes to your heart's
-                content.</p>
-                <ul class="tech">
-                    <li>Python</li>
-                    <li>Django</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Heroku</li>
-                </ul>
-                <br />
-                <div class="links">
-                    <a href="https://github.com/StellaCea/chatApp" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://youtube.com/shorts/FJRiEYTYNmg?feature=share" target="_blank"><i class="fa fa-link"></i></a>
+
+            <div class="work-card card7">
+                <div class="work-container">
+                    <img src="images/recipeApp.png" alt="recipeApp">
+                </div>
+                <div class="work-details">
+                    <h3>Recipe App</h3>
+                    <p>An easy-to-use recipe application developed using Django and hosted on Heroku. It seamlessly connects to a SQL database
+                    and operates directly within your web browser. Users can effortlessly login and find their favorite recipes to their heart's
+                    content.</p>
+                    <ul class="tech">
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <br />
+                    <div class="links">
+                        <a href="https://github.com/StellaCea/chatApp" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://youtube.com/shorts/FJRiEYTYNmg?feature=share" target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <!--skills section design-->
-    <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
-
-        <div class="skills-row">
-            <div class="skills-column">
-                <div class="skills-box">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Languages</th>
-                                <th>Design</th>
-                                <th>Front-end</th>
-                                <th>Back-end</th>
-                                <th>Database</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>HTML</td>
-                                <td>Adobe Photoshop</td>
-                                <td>Bootstrap</td>
-                                <td>Node JS</td>
-                                <td>MongoDB</td>
-                            </tr>
-                            <tr>
-                                <td>CSS</td>
-                                <td>Figma</td>
-                                <td>React JS</td>
-                                <td></td>
-                                <td>Firebase</td>
-                            </tr>
-                            <tr>
-                                <td>JavaScript</td>
-                                <td>Sketch</td>
-                                <td>Angular JS</td>
-                                <td></td>
-                                <td>SQL & NoSQL</td>
-                            </tr>
-                            <tr>
-                                <td>Python</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                    
-                            </tr>
-                        </tbody>
-                    </table>
-                    <span class="animate scroll" style="--i:3;"></span>
-                </div>
-                
-            </div>
-        </div>
-    </section>
 
     <!--contact section design-->
     <section class="contact" id="contact">
