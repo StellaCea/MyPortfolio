@@ -623,6 +623,10 @@ span{
     padding: 2rem 9%;
     background: var(--bg-color);
 }
+.footer-text,
+.footer-iconTop {
+    position: relative;
+}
 .footer-text p{
     font-size: 1.6rem;
 }
