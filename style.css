@@ -542,7 +542,7 @@ span{
 
 /* CONTACT DESIGN */
 
-.contact{
+.contact {
     padding-bottom: 7rem;
     background-color: var(--second-bg-color);
 }
@@ -552,13 +552,13 @@ span{
     transform: translateX(-50%);
 }
 
-.contact form{
+.contact form {
     max-width: 70rem;
     margin: 0 auto;
     text-align: center;
+    
 }
-
-.contact form .input-box{
+.contact form .input-box {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -615,6 +615,7 @@ span{
     cursor: pointer;
 }
 
+/* FOOTER SEDIGN */
 .footer{
     display: flex;
     justify-content: space-between;
@@ -622,6 +623,10 @@ span{
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--bg-color);
+}
+.footer-text,
+.footer-iconTop {
+    position: relative;
 }
 .footer-text p{
     font-size: 1.6rem;
@@ -689,9 +694,11 @@ span{
     animation: none;
 }
 
-section:nth-child(odd) .animate-scroll {
+.animate-scroll section:nth-child(odd),
+.footer .animate-scroll{
     background: var(--second-bg-color);
 }
+
 
 .work .work-box .work.scroll,
 .about .about-box .animate.scroll,
@@ -706,6 +713,11 @@ section:nth-child(odd) .animate-scroll {
 {
     transition-delay: calc(.3s * var(--i));
     width: 0;
+}
+
+.about .animate.scroll,
+.contact .animate.scroll {
+    background: var(--second-bg-color);
 }
 
 
