@@ -101,10 +101,6 @@ section{
 .home-content-left {
     flex: 1;
 }
-.home-content-right {
-    flex: 1;
-    padding-left: 150px;
-}
 
 .home-content h1 {
     position: relative;
@@ -114,7 +110,7 @@ section{
     line-height: 1.3;
 }
 .home-content h1 span{
-    color: var(--text-color);
+    color: var(--main-color);
 }
 .home-content .text-animate{
     position: relative;
@@ -276,12 +272,13 @@ span{
 }
 .about-img{
     position: relative;
-    width: 35rem;
-    height: 35rem;
+    width: 40rem;
+    height: 40rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 .about-img img{
     width: 80%;
@@ -316,6 +313,7 @@ span{
     position: relative;
     display: inline-block;
     font-size: 2.6rem;
+    color: var(--main-color)
 }
 .about-content .about-box{
     display: inline-block;
@@ -351,9 +349,7 @@ span{
 }
 
 .skills h3 {
-    display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
+    display: block;
 }
 .skills .skills-row {
     display: flex;
@@ -414,21 +410,29 @@ span{
 }
 
 /* WORK */
+.work {
+    padding: 5rem;
+}
 
 .work h2 {
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
+    
 }
+
 .work-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
-    justify-items: center;
     gap: 2rem;
     position: relative;
 }
 .work-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    overflow: hidden;
     background-color: var(--bg-color);
     border-radius: 20px;
     border: 2px solid var(--second-bg-color);
@@ -439,11 +443,13 @@ span{
 }
 .work-container img {
     width: 100%;
-    display: block;
+    height: 350px;
+    object-fit: cover;
     border-radius: 20px 20px 0 0 ;
 }
 .work-details {
     padding: 20px 10px;
+    flex: 1 1 auto;
 }
 .work-details h3 {
     font-size: 3.2rem;
@@ -477,8 +483,10 @@ span{
 }
 
 .work-details .links {
-    clear: both;
-    margin-top: 1em;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
 }
 
 .work-details a {
@@ -495,6 +503,8 @@ span{
     color: var(--main-color);
     z-index: 1;
     overflow: hidden;
+    margin: 0 0.2em;
+    padding: 0.5em;
 }
 
 .work-details a:hover {
@@ -721,7 +731,6 @@ span{
 }
 
 
-
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
     html{
@@ -749,6 +758,13 @@ span{
     }
     .home{
         padding: 0 4%;
+        margin: 50px;
+    }
+    .about-img img{
+        width: 80%;
+    }
+    .about-img .circle-spin{
+        display: none;
     }
     .footer{
         padding: 2rem 4%;
@@ -824,6 +840,15 @@ span{
         justify-items: center;
         column-gap: 0.5em;
     }
+    .home-sci{
+        width: 120px;
+        bottom: 2rem;
+    }
+    .home-sci a{
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -848,25 +873,24 @@ span{
 @media (max-width: 462px){
     .home-content {
         flex-direction: column;
-        text-align: center;
     }
-    .home-content-left {
-        width: 70%;
+    .home-content-left{
+        padding: 20px;
     }
-    .home-content-right{
-        flex: none;
-        padding: 20px 0;
-    }
-    img {
-        display: block;
-        margin: 0;
-    }
+
     .home-content h1{
-        font-size: 5.2rem;
+        font-size: 3.8rem;
     }
+
     .about-content{
         text-align: center;
         width: 100%;
+    }
+    .about-img{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
     }
 
     table, thead, tbody, th, td, tr {
@@ -898,15 +922,12 @@ span{
     .home-content{
         flex-direction: column;
         text-align: center;
-        padding: 15px;
+        margin: 15px;
     }
     .home-content h1{
         font-size: 5rem;
     }
-    img {
-        display: block;
-        width: 20%;
-    }
+
 }
 
 /*KEYFRAMES ANIMATION */
