@@ -813,10 +813,6 @@ span{
     .home-content {
         flex-direction: column-reverse;
     }
-    .home-content-right img {
-        margin-left: 0;
-        margin-top: 20px;
-    }
     .work-cards {
         display: grid;
         grid-template-columns: 1fr;
