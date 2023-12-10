@@ -282,7 +282,6 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 .about-img img{
     width: 80%;
@@ -295,8 +294,8 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0);
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
     border-top: .2rem solid var(--bg-color);
     border-bottom: .2rem solid var(--bg-color);
@@ -773,8 +772,12 @@ span{
     }
 }
 @media (max-width: 850px){
-    .animate.home-img {
-        width: 55%;
+    .about-img img {
+        width: 80%;
+    }
+    .home-sci {
+        width: 160px;
+        bottom: 2rem;
     }
 }
 @media (max-width: 768px){
@@ -829,7 +832,7 @@ span{
         transition-delay: .25s;
     }
     .home-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .work-cards {
         display: grid;
@@ -837,6 +840,26 @@ span{
         justify-content: center;
         justify-items: center;
         column-gap: 0.5em;
+    }
+    .about-img{
+        padding: 0;
+        margin: 0;
+    }
+    .about-img img{
+        width: 80%;
+    }
+    .about-img .circle-spin {
+        display: none;
+    }
+    .home-sci {
+        width: 160px;
+        bottom: 2rem;
+    }
+
+    .home-sci a {
+        width: 38px;
+        height: 38px;
+        margin-top: 20px;
     }
 }
 
@@ -864,9 +887,6 @@ span{
         flex-direction: column;
         text-align: center;
     }
-    .home-content-left {
-        padding: 20px;
-    }
     img {
         display: block;
         margin: 0;
@@ -879,10 +899,10 @@ span{
         width: 100%;
     }
     .about-img {
-        margin-top: 20px;
         display: flex;
         justify-content: center;
         justify-items: center;
+        width: 80%;
     }
 
     table, thead, tbody, th, td, tr {
@@ -900,7 +920,7 @@ span{
         width: 100%;
     }
     .footer{
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
     .footer p{
         margin-top: 2rem;
