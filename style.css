@@ -444,7 +444,7 @@ span{
 }
 .work-container img {
     width: 100%;
-    height: 350px;
+    height: 320px;
     object-fit: cover;
     border-radius: 20px 20px 0 0 ;
 }
@@ -453,7 +453,7 @@ span{
     flex: 1 1 auto;
 }
 .work-details h3 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     font-weight: 700;
     margin: 10px 0 15px 0;
     text-align: center;
@@ -861,6 +861,18 @@ span{
     .home-sci a {
         width: 38px;
         height: 38px;
+    }
+    .footer {
+        padding: 2rem 5%;
+    }
+
+    .footer-text {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer-iconTop {
+        margin-top: 1rem;
     }
 }
 
